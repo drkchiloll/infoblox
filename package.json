@@ -1,0 +1,15 @@
+{
+  "name": "infoblox",
+  "version": "1.0.0",
+  "description": "A subset of the Infoblox API version 2.1+",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam Womack",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.0.6",
+    "request": "^2.67.0"
+  }
+}
