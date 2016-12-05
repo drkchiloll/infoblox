@@ -13,7 +13,7 @@ ipam.login(user, password).then(() => {
 }).then((data) => {
   let netId = JSON.parse(data)[0]._ref;
   return ipam.getNextSubnets({
-    netId, cidr: 22, num: 1
+    netId, cidr: 24, num: 5
   })
 }).then(data => {
   console.log(data);
